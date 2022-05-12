@@ -9,6 +9,7 @@ import scipy as sp
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 import random
+import legend
 
 delay = np.linspace(-2 * 1E-7, 2 * 1E-7, 10000)  # time delay s
 delay1 = np.linspace(0,2 * 1E-7, 10000)
@@ -18,7 +19,6 @@ initils1 = [1.0, 0.0, 0.0]
 initils0 = [1.0, 0.0]
 power = [50 * 1E5, 50 * 1E6, 10 * 1E7]
 k = power[2]
-
 # Differential equation of 3 Level case
 
 
